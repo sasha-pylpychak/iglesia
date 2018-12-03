@@ -551,4 +551,7 @@ html[xmlns] .slides {
   height: 1%;
 }
 /* Your Custom code here */
+div.example {
+  background: #000;
+}
 /*# sourceMappingURL=general.css.map */
