@@ -11,8 +11,11 @@
 <body <?php body_class(); ?> >
     <header class="top_header">
         <div class="wrapper cf">
-            <div class="header_third search_section menu_buttom">
-                search
+            <div class="header_third search_section menu_buttom cf">
+                <div class="menu_icon">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+                <div class="search_box"><?php echo get_search_form(); ?></div>
             </div>
             <div class="header_third logo_section">
                 <a href="<?php echo home_url("/");?>" class="logo_link"><img src="<?php echo ale_get_option('sitelogo'); ?>" /></a>
@@ -24,6 +27,24 @@
                 <?php if(aletheme_get_options('fb')){ ?><a href="<?php echo aletheme_get_options('fb') ?>"><i class="fa fa-facebook" aria-hidden="true"></i></a><?php } ?>
             </div>
         </div>
+        <nav class="top_navigation">
+            <div class="wrapper">
+                <?php
+                if ( has_nav_menu( 'header_menu' ) ) {
+                    wp_nav_menu(array(
+                        'theme_location'=> 'header_menu',
+                        'menu'			=> 'Header Menu',
+                        'menu_class'	=> 'ale_headermenu cf',
+                        'walker'		=> new Aletheme_Nav_Walker(),
+                        'container'		=> '',
+                    ));
+                }
+                ?>
+                <div class="donate_button">
+                    <a href="<?php //echo ale_get_option('donate_link');?>"><?php _e('Donate','iglesia'); ?></a>
+                </div>
+            </div>
+        </nav>
     </header>
     <section class="home_slider">
 
