@@ -23,7 +23,12 @@ Header Styles
   height: 105px;
   background: #fff;
 
+  .wrapper {
+    overflow: hidden;
+  }
+
   .top_navigation {
+    display: none;
     position: absolute;
     top: 100%;
     left: 0;
@@ -31,6 +36,25 @@ Header Styles
     height: 90px;
     background-color: @dark_color;
     z-index: 99;
+
+    .wrapper {
+      position: relative;
+
+      &::before {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        margin-left: 5px;
+        margin-top: -4px;
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 3.5px 4px 3.5px;
+        border-color: transparent transparent @dark_color transparent;
+      }
+    }
 
     .donate_button {
       float: right;
@@ -74,9 +98,11 @@ Header Styles
           background-color: #fff;
           color: @color_darkgrey;
           width: 140px;
+          box-sizing: border-box;
           border-top: 3px solid @yellow_color;
           margin-top: -3px;
-          padding: 25px;
+          padding-top: 25px;
+          padding-bottom: 25px;
           position: relative;
           display: none;
 
@@ -104,8 +130,19 @@ Header Styles
             line-height: 40px;
             float: none;
             width: 100%;
-            border-bottom: 1px solid @color_grey;
             margin: 0;
+
+            &.menu-item-has-children {
+              &::after {
+                content: "\f054";
+                font: normal normal normal 4px/1 FontAwesome;
+                position: absolute;
+                top: 50%;
+                left: 80%;
+                margin-top: -3px;
+                color: @yellow_color;
+              }
+            }
 
             &:hover {
               .sub-menu {
@@ -114,28 +151,34 @@ Header Styles
             }
 
             .sub-menu {
-              margin-left: 25px;
               position: absolute;
               border:0;
               border-left: 2px solid #f7f7f7;
               left: 100%;
               top: 0;
               display: none;
+
               &::before{
                 display: none;
               }
             }
 
             &:last-child {
-              border-bottom: 0;
+              a {
+                border-bottom: 0;
+              }
             }
 
             a {
               color: inherit;
               height: auto;
+              margin-left: 25px;
+              margin-right: 25px;
               padding: 0;
-              display: inline-block;
+              display: block;
               line-height: 40px;
+              box-sizing: border-box;
+              border-bottom: 1px solid @color_grey;
               .transition(all 300ms ease-in-out);
 
               &:hover {
@@ -201,6 +244,7 @@ Header Styles
     background: url("img/bottom.png") repeat-x center center;
     position: absolute;
     top: 100%;
+    z-index: 1;
   }
 
   .header_third {
@@ -298,6 +342,24 @@ Header Styles
       i {
         margin-left: 30px;
       }
+    }
+  }
+}
+
+.home_slider {
+
+  .flexslider {
+    width: 50%;
+    float: left;
+  }
+
+  ul.slides {
+    width: 50%;
+    float: left;
+
+    img {
+      max-width: 100%;
+      height: auto;
     }
   }
 }
