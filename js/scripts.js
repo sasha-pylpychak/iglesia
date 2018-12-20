@@ -18,6 +18,8 @@ jQuery(function($) {
     $('.flexslider').flexslider({
         animation:'slide',
         //smoothHeight:true,
+        prevText:"<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i>",
+        nextText:"<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>",
         controlNav: false
     });
 
