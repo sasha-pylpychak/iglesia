@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a57cde35-08d8-4be9-b38e-f352440712e0" name="Default Changelist" comment="Add sliders">
+    <list default="true" id="a57cde35-08d8-4be9-b38e-f352440712e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/img/footer.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aletheme/functions/import_export.php" beforeDir="false" afterPath="$PROJECT_DIR$/aletheme/functions/import_export.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aletheme/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/aletheme/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aletheme/options/admin/options-framework.php" beforeDir="false" afterPath="$PROJECT_DIR$/aletheme/options/admin/options-framework.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/general.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/general.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +62,7 @@
           <entry key="css" value="16" />
           <entry key="js" value="1" />
           <entry key="less" value="22" />
-          <entry key="php" value="27" />
+          <entry key="php" value="31" />
           <entry key="png" value="2" />
         </counts>
       </usages-collector>
@@ -69,25 +72,25 @@
           <entry key="Image" value="2" />
           <entry key="JavaScript" value="1" />
           <entry key="Less" value="22" />
-          <entry key="PHP" value="27" />
+          <entry key="PHP" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="38" />
           <entry key="js" value="313" />
-          <entry key="less" value="3510" />
-          <entry key="php" value="1359" />
-          <entry key="txt" value="148" />
+          <entry key="less" value="3775" />
+          <entry key="php" value="1716" />
+          <entry key="txt" value="160" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="38" />
           <entry key="JavaScript" value="313" />
-          <entry key="Less" value="3510" />
-          <entry key="PHP" value="1359" />
-          <entry key="PLAIN_TEXT" value="148" />
+          <entry key="Less" value="3775" />
+          <entry key="PHP" value="1716" />
+          <entry key="PLAIN_TEXT" value="160" />
         </counts>
       </usages-collector>
     </session>
@@ -97,17 +100,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="375" selection-start-line="375" selection-end-line="375" />
+            <state relative-caret-position="195">
+              <caret line="479" column="21" selection-start-line="479" selection-start-column="21" selection-end-line="479" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page-home.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="120" selection-start-line="21" selection-start-column="106" selection-end-line="21" selection-end-column="120" />
+            <state relative-caret-position="270">
+              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -115,22 +118,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aletheme/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+            <state relative-caret-position="220">
+              <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -140,10 +134,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aletheme/functions/import_export.php">
+        <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="250">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -172,14 +166,15 @@
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/searchform.php" />
         <option value="$PROJECT_DIR$/aletheme/etc/system.php" />
-        <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/aletheme/config.php" />
         <option value="$PROJECT_DIR$/page-home.php" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/css/general.less" />
         <option value="$PROJECT_DIR$/aletheme/functions/import_export.php" />
-        <option value="$PROJECT_DIR$/css/main.less" />
         <option value="$PROJECT_DIR$/js/scripts.js" />
+        <option value="$PROJECT_DIR$/aletheme/options/admin/options-framework.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/aletheme/config.php" />
+        <option value="$PROJECT_DIR$/css/main.less" />
+        <option value="$PROJECT_DIR$/footer.php" />
       </list>
     </option>
   </component>
@@ -213,40 +208,6 @@
               <item name="iglesia" type="b2602c69:ProjectViewProjectNode" />
               <item name="iglesia" type="462c0819:PsiDirectoryNode" />
               <item name="aletheme" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iglesia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iglesia" type="462c0819:PsiDirectoryNode" />
-              <item name="aletheme" type="462c0819:PsiDirectoryNode" />
-              <item name="functions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iglesia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iglesia" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iglesia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iglesia" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iglesia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iglesia" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="general.less" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="iglesia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iglesia" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="main.less" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="iglesia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iglesia" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -314,7 +275,7 @@
       <workItem from="1545217716521" duration="592000" />
       <workItem from="1545218828057" duration="4827000" />
       <workItem from="1545227250626" duration="2518000" />
-      <workItem from="1545302369302" duration="8553000" />
+      <workItem from="1545302369302" duration="13009000" />
     </task>
     <task id="LOCAL-00001" summary="less none">
       <created>1543854898026</created>
@@ -393,11 +354,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545231043483</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="sliders done">
+      <created>1545320662956</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1545320662957</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71304000" />
+    <option name="totallyTimeSpent" value="75760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1366" height="742" extended-state="6" />
@@ -443,7 +411,8 @@
     <MESSAGE value="add social icon" />
     <MESSAGE value="add navigation, add sub-menu" />
     <MESSAGE value="Add sliders" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add sliders" />
+    <MESSAGE value="sliders done" />
+    <option name="LAST_COMMIT_MESSAGE" value="sliders done" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../../wp-config.php">
@@ -534,13 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/general.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -562,24 +524,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aletheme/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aletheme/functions/import_export.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/options/admin/options-framework.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="264" column="39" selection-start-line="264" selection-start-column="39" selection-end-line="264" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -590,17 +552,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.less">
+    <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="375" selection-start-line="375" selection-end-line="375" />
+        <state relative-caret-position="250">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/scripts.js">
+    <entry file="file://$PROJECT_DIR$/aletheme/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="220">
+          <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="479" column="21" selection-start-line="479" selection-start-column="21" selection-end-line="479" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>
