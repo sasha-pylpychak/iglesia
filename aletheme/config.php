@@ -222,8 +222,30 @@ function aletheme_get_options() {
 						"type" => "checkbox");
 
 
-	
-	$options[] = array( "name" => "Advanced Settings",
+    $options[] = array( "name" => "Footer Settings",
+                        "type" => "heading");
+
+    $options[] = array( "name" => "Phone Number",
+                        "desc" => "Insert your phone number",
+                        "id" => "ale_footer_phone",
+                        "std" => "",
+                        "type" => "text");
+
+    $options[] = array( "name" => "Address",
+                        "desc" => "Insert your address",
+                        "id" => "ale_footer_address",
+                        "std" => "",
+                        "type" => "text");
+
+    $options[] = array( "name" => "Email",
+                        "desc" => "Insert your email",
+                        "id" => "ale_footer_email",
+                        "std" => "",
+                        "type" => "text");
+
+
+
+    $options[] = array( "name" => "Advanced Settings",
 						"type" => "heading");
 
 	
